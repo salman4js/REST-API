@@ -10,7 +10,7 @@ const Diary = mongoose.model("note")
 
 
 
-const mongodbURI = "mongodb+srv://salman:pamelia@cluster0.0cr8n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const mongodbURI = "mongodb+srv://salman:{password_here}@cluster0.0cr8n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 mongoose.connect(mongodbURI,{
     useNewUrlParser : true,
